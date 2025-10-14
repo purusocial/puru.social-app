@@ -10,66 +10,74 @@ export const color = {
 export const gradients = {
   primary: {
     values: [
-      [0, '#054CFF'],
-      [0.4, '#1085FE'],
-      [0.6, '#1085FE'],
-      [1, '#59B9FF'],
+      // primeira modificação puru.social [x]
+      [0, '#A80000'],
+      [0.4, '#D92020'],
+      [0.6, '#D92020'],
+      [1, '#FF5555'],
     ],
-    hover_value: '#1085FE',
+    hover_value: '#D92020',
   },
   sky: {
+    // segunda modificação [x]
     values: [
-      [0, '#0A7AFF'],
-      [1, '#59B9FF'],
+      [0, '#C21818'],
+      [1, '#FF5555'],
     ],
-    hover_value: '#0A7AFF',
+    hover_value: '#C21818',
   },
   midnight: {
+    // terceira modificação [x]
     values: [
-      [0, '#022C5E'],
-      [1, '#4079BC'],
+      [0, '#3D0000'],
+      [1, '#7C3434'],
     ],
-    hover_value: '#022C5E',
+    hover_value: '#3D0000',
   },
   sunrise: {
+    // quarta modificação [x]
     values: [
-      [0, '#4E90AE'],
-      [0.4, '#AEA3AB'],
-      [0.8, '#E6A98F'],
-      [1, '#F3A84C'],
+      [0, '#A83232'],
+      [0.4, '#D95E5E'],
+      [0.8, '#FF7F7F'],
+      [1, '#FFC080'],
     ],
-    hover_value: '#AEA3AB',
+    hover_value: '#D95E5E',
   },
   sunset: {
+    // quinta modificação [x]
     values: [
-      [0, '#6772AF'],
-      [0.6, '#B88BB6'],
-      [1, '#FFA6AC'],
+      [0, '#991A1A'],
+      [0.6, '#E04E4E'],
+      [1, '#FFB2B2'],
     ],
-    hover_value: '#B88BB6',
+    hover_value: '#E04E4E',
   },
   summer: {
+    // sexta modificação [x]
     values: [
-      [0, '#FF6A56'],
-      [0.3, '#FF9156'],
-      [1, '#FFDD87'],
+      [0, '#E60000'],
+      [0.3, '#FF4500'],
+      [1, '#FFB380'],
     ],
-    hover_value: '#FF9156',
+    hover_value: '#FF4500',
   },
   nordic: {
+    // setima modificação [x]
     values: [
-      [0, '#083367'],
-      [1, '#9EE8C1'],
+      [0, '#4F0000'],
+      [1, '#FFC2C2'],
     ],
-    hover_value: '#3A7085',
+    hover_value: '#993333',
   },
   bonfire: {
+    // oitava modificação [x]
     values: [
-      [0, '#203E4E'],
-      [0.4, '#755B62'],
-      [0.8, '#CD7765'],
-      [1, '#EF956E'],
+      [0, '#330000'],
+      [0.4, '#802A2A'],
+      [0.8, '#CC5500'],
+      [1, '#FF8C00'],
     ],
-    hover_value: '#755B62',
+    hover_value: '#802A2A',
   },
 } as const
