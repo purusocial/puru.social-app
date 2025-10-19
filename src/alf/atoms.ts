@@ -1,5 +1,5 @@
 import {type StyleProp, type ViewStyle} from 'react-native'
-import {atoms as baseAtoms} from '@bsky.app/alf'
+import {atoms as baseAtoms} from '@puru.social/alfb'
 
 import {CARD_ASPECT_RATIO} from '#/lib/constants'
 import {native, platform, web} from '#/alf/util/platform'

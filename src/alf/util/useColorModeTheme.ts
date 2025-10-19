@@ -1,6 +1,6 @@
 import React from 'react'
 import {type ColorSchemeName, useColorScheme} from 'react-native'
-import {type ThemeName} from '@bsky.app/alf'
+import {type ThemeName} from '@puru.social/alfb'
 
 import {isWeb} from '#/platform/detection'
 import {useThemePrefs} from '#/state/shell'

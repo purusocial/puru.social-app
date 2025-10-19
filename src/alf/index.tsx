@@ -1,5 +1,5 @@
 import React from 'react'
-import {type Theme, type ThemeName} from '@bsky.app/alf'
+import {type Theme, type ThemeName} from '@puru.social/alfb'
 
 import {
   computeFontScaleMultiplier,
@@ -11,7 +11,7 @@ import {
 import {themes} from '#/alf/themes'
 import {type Device} from '#/storage'
 
-export {type TextStyleProp, type Theme, type ViewStyleProp} from '@bsky.app/alf'
+export {type TextStyleProp, type Theme, type ViewStyleProp} from '@puru.social/alfb'
 export {atoms} from '#/alf/atoms'
 export * from '#/alf/breakpoints'
 export * from '#/alf/fonts'

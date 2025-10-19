@@ -1,5 +1,5 @@
 import * as SystemUI from 'expo-system-ui'
-import {type Theme} from '@bsky.app/alf'
+import {type Theme} from '@puru.social/alfb'
 
 import {logger} from '#/logger'
 import {isAndroid} from '#/platform/detection'

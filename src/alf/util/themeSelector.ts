@@ -1,3 +1,3 @@
-import {utils} from '@bsky.app/alf'
+import {utils} from '@puru.social/alfb'
 
 export const select = utils.select

@@ -1,6 +1,5 @@
-import {tokens} from '@bsky.app/alf'
-
-export * from '@bsky.app/alf/dist/tokens'
+import {tokens} from '@puru.social/alfb'
+export {tokens} from '@puru.social/alfb'
 
 export const color = {
   temp_purple: tokens.labelerColor.purple,

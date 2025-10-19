@@ -1,7 +1,7 @@
 import {type ReactNode} from 'react'
 import {createContext, useContext} from 'react'
 import {type TextStyle, type ViewStyle} from 'react-native'
-import {type ThemeName} from '@bsky.app/alf'
+import {type ThemeName} from '@puru.social/alfb'
 
 import {darkTheme, defaultTheme, dimTheme} from './themes'
 
