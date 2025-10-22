@@ -1,5 +1,6 @@
 import {tokens} from '@puru.social/alfb'
-export {tokens} from '@puru.social/alfb'
+
+export * from '@puru.social/alfb/dist/tokens'
 
 export const color = {
   temp_purple: tokens.labelerColor.purple,
